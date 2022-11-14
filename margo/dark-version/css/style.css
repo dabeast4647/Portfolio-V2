@@ -445,23 +445,20 @@ header.white-home .logo .black{
     fill: #000;
 }
 
-.halfimage .hero .section-out{
-    background: none;
-}
 
 .dark-filter::before {
     content: '';
-    background: rgba(0, 0, 0, 0.30);
-    width: 100%;
-    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    width: 0%;
+    height: 0%;
     position: absolute;
 }
 
 .darkness.halfimage .half-image:after{
     content: '';
-    /*background: url(../images/mask-dark.png); */
+    background: url(../images/mask-dark.png);
     height: 100%;
-    width: 100%;
+    width: 0%;
     z-index: 10;
     position: absolute;
     background-repeat: no-repeat;
@@ -545,7 +542,9 @@ header.agency.white-home .logo.white{
 }
 
 .darkness .section-out{
-    background: url('https://media.giphy.com/media/zh1CiotVYB1DO2k8Ep/giphy.gif');
+    background: url('https://acegif.com/wp-content/uploads/gifs/starfall-gif-46.gif');
+    background-size: 100%;
+   
 }
 
 .darkness .page-layout {
@@ -557,6 +556,8 @@ header.agency.white-home .logo.white{
     z-index: 1;
 }
 .modern-layout .page-layout {
+    background: url('https://acegif.com/wp-content/uploads/gifs/starfall-gif-46.gif');
+    background-size: 100%;
     width: auto;
     height: 100%;
     position: absolute;
@@ -1074,7 +1075,7 @@ header.second .follow-us i{
 }
 
 .half-image{
-    background-position-x: right !important;
+    background-position-x: 65% !important;
     background-size: cover !important;
     height: 100%;
 }
